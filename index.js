@@ -8,6 +8,10 @@ app.get ("/" , (rq, res)  => {
 })
   res.sendFile(`${basePath}/index.html`)
 
+  app.get ("/" , (rq, res)  => { 
+})
+  res.sendFile(`${basePath}/gato.html`)
+
 app.get ("/" , (rq, res)  => { 
    res. send ("frutas")
 })
